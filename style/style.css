@@ -1,0 +1,19 @@
+.xkcdPassword{
+ margin-top:55px; margin-bottom:15px;   
+}
+
+.separator{
+    margin-top: 25px;
+}
+
+.generateButton{
+    width:300px;
+}
+
+input[type=text]{
+    outline:0;    
+}
+select{
+    outline:0; 
+}
+
