@@ -109,7 +109,7 @@ $password = generatePassword($wordsCount,$wordsShape,$separator,$insertNumber,$i
                 	Know more about <a href="http://xkcd.com/936/">xkcd password strength</a><br>
                 
                 	<a href="http://xkcd.com/936/">
-                		<img style="width:600px; height:450px;" src="http://imgs.xkcd.com/comics/password_strength.png" alt="xkcd style passwords">
+                		<img class="xkcdimage" src="http://imgs.xkcd.com/comics/password_strength.png" alt="xkcd style passwords">
                 	</a>
                 
             </div>
