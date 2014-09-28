@@ -7,7 +7,7 @@ function generatePassword ($wordsCount , $wordsShape, $separator, $insertNumber,
     ## Security Assurance ##
     
     //  $wordsCount
-    if ($wordsCount < 2){ #Min is 4
+    if ($wordsCount < 2){ #Min is 2
         $wordsCount = 2;
     }else if ($wordsCount > 8){ #Max is 9
         $wordsCount = 8;
@@ -27,7 +27,11 @@ function generatePassword ($wordsCount , $wordsShape, $separator, $insertNumber,
     }else if ($insertNumber > 4){ #Max is 4
         $insertNumber = 4;
     }else{
-        $insertNumber = $insertNumber;
+        if (is_numeric($insertNumber)){
+            $insertNumber = $insertNumber;
+        }else{
+            $insertNumber = 0;
+        }
     }
     
     
@@ -37,7 +41,12 @@ function generatePassword ($wordsCount , $wordsShape, $separator, $insertNumber,
     }else if ($insertSymbol > 4){#Max is 4
         $insertSymbol = 4;
     }else{
-        $insertSymbol = $insertSymbol;
+        if (is_numeric($insertSymbol)){
+            $insertSymbol = $insertSymbol;
+        }else{
+            $insertSymbol = 0;
+        }
+        
     }   
     
     
