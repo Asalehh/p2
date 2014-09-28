@@ -68,7 +68,7 @@ $password = generatePassword($wordsCount,$wordsShape,$separator,$insertNumber,$i
                     </div>
                     
                     
-                    <div class="col-md-2">Add Numbers?<br />
+                    <div class="col-md-2">Numbers?<br />
                 
                         <select name="insertNumber">
                             <option value="0">No</option> 
@@ -81,7 +81,7 @@ $password = generatePassword($wordsCount,$wordsShape,$separator,$insertNumber,$i
                     </div>
                     
                     
-                    <div class="col-md-2">Add Symbols?<br />
+                    <div class="col-md-2">Symbols?<br />
                 
                         <select name="insertSymbol">
                             <option value="0">No</option> 
